@@ -8,7 +8,9 @@ fixes your code.
 
 When a friend you want to prank has walked away from their computer, add this crate
 to the dependencies and then annotate something with
-`#[sometimes_compile::main]`. See [the example][example].
+`#[sometimes_compile::main]`. See [the example][example]. You can clone this
+repository and call [`rerun-until-fail.sh`](./rerun-until-fail.sh) to see it in
+action.
 
 You can be extra annoying by renaming the dependency.
 
